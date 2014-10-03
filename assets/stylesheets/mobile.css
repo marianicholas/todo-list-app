@@ -1,0 +1,27 @@
+@media only screen and (max-width: 400px) {
+	h1 {
+		float: none;
+		margin: 0;
+		width: 100%;
+	}
+
+	.search-bar {
+		float: none;
+		margin-top: 2em;
+		max-width: 100%;
+	}
+
+	.content-left {
+		width: 100%;
+		margin-top: 5em;
+	}
+
+	.task-input {
+  		max-width: 80%;
+	}
+
+	.content.right {
+		float: none;
+		width: 100%;
+	}
+}
