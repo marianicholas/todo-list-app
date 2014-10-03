@@ -1,69 +1,35 @@
 <!DOCTYPE html>
 <html>
   	<head>
+  		<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,700' rel='stylesheet' type='text/css'>
     	<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive meta tag; This means that the browser will probably render the width of the page at the width of its own screen. -->
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<title>TaskMaster®</title>
     	<link rel="stylesheet" href="assets/stylesheets/styles.css">
     	<link rel="stylesheet" href="assets/stylesheets/mobile.css">
   	</head>
  	<body>
+ 		
+		<div class="header">
+			<h1>TaskMaster<sup>®</sup></h1>
+			<form>
+				<div>
+					<input class="search-bar" type="text" placeholder="&nbsp; &nbsp; &nbsp;Find a task...">
+				</div>
+			</form>
+		</div>
 
-<!--1. ENTIRE CANVAS -->
  		<div class="container">
-
-<!--2. TOP BRANDING AREA -->
- 			<div class="header">
- 				
- 				<h1>TaskMaster<sup>®</sup></h1>
-
- 				<form>
- 					<div>
- 						<input class="search-bar" type="text" placeholder="&nbsp; &nbsp; &nbsp; &nbsp; Search this list...">
- 					</div>
- 				</form>
-
- 			</div>
-
-	 			
-<!--3. REST OF CONTENT -->
- 			<div class="content-left">
-
- 				<div class="list-name">
- 					<p>Exercise Regimen</p>
- 				</div>
- 
- 				<!-- - - - - - - - - - - - - - - - -->
-
- 				<div class="item-container">
-					<form id="task-form">
-					  <div>
-					    <input class="task-input" type="text" placeholder="Type a task...">
-					    <input type="submit" value="&plus;">
-					  </div>
-					  <ul class="task-list">
-					  </ul>
-					</form>
-
- 				</div>
-
- 				<button>Create another list</button>
-
- 				<!-- - - - - - - - - - - - - - - - -->
- 				 
-
- 			</div>
-
- 			<div class="content-right">
-
- 				<h4><strong>My Lists</strong></h4>
-
- 					<p>• Concerts to attend</p>
- 					<p>• Restaurants to try</p>
- 					<p>• Museums to visit</p>
-
-			</div>
-
+ 			<form id="task-form">
+			  <div>
+			    <input class="task-input" type="text" placeholder="&nbsp;Type a task...">
+			   <input type="submit" value="ADD">
+			  </div>
+			  <div class="task-list-container">
+			  <ul class="task-list">
+			  </ul>
+			  </div>
+			</form>
  		</div>
 
  		<script src="assets/js/jquery-1.11.1.min.js"></script>

@@ -3,25 +3,39 @@
 		float: none;
 		margin: 0;
 		width: 100%;
+		text-align: center;
+	}
+
+	.container {
+		margin-top: 5em;
+	}
+
+
+	.task-list-container {
+		max-width: 100%;
+		margin-top: 0;
+		padding-left: 1em;
+		padding-right: 1em;
+
 	}
 
 	.search-bar {
 		float: none;
-		margin-top: 2em;
 		max-width: 100%;
+		margin-top: 5%;
 	}
 
-	.content-left {
-		width: 100%;
-		margin-top: 5em;
+
+	form .task-input {
+  		max-width: 60%;
+  		height: 30%;
+  		margin-left: 5%;
 	}
 
-	.task-input {
-  		max-width: 80%;
+	li {
+	  margin: 1em 1em 1em 1em;
+	  border-bottom: 1px solid gray;
 	}
+}
 
-	.content.right {
-		float: none;
-		width: 100%;
-	}
 }
