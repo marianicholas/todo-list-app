@@ -36,6 +36,10 @@
 	  margin: 1em 1em 1em 1em;
 	  border-bottom: 1px solid gray;
 	}
+
+	.remove-task {
+	  margin-left: 15em;
+	  font-size: 1em;
+	}
 }
 
-}
